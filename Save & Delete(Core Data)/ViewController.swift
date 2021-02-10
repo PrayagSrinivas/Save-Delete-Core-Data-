@@ -9,11 +9,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var StudentName: UITextField!
+    @IBOutlet weak var StatusField: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func saveData(_ sender: UIButton) {
+        let dh = DatabaseSaving()
+        dh.save(studenName: StudentName.text!)
+        StatusField.text = "Data has been saved"
+    }
+    
+    @IBAction func clearData(_ sender: Any) {
+        let dh = DatabaseSaving()
+        dh.clear()
+        StatusField.text = "Data has been cleared"
+    }
 }
 

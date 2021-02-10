@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E67874325A401190023B738 /* StudentData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67874125A401190023B738 /* StudentData+CoreDataClass.swift */; };
+		8E67874425A401190023B738 /* StudentData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67874225A401190023B738 /* StudentData+CoreDataProperties.swift */; };
+		8E67874925A404380023B738 /* DatabaseSaving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E67874825A404380023B738 /* DatabaseSaving.swift */; };
 		8EBE78DD25A2D2B80047DE4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE78DC25A2D2B80047DE4A /* AppDelegate.swift */; };
 		8EBE78DF25A2D2B80047DE4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE78DE25A2D2B80047DE4A /* SceneDelegate.swift */; };
 		8EBE78E125A2D2B80047DE4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBE78E025A2D2B80047DE4A /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E67874125A401190023B738 /* StudentData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8E67874225A401190023B738 /* StudentData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8E67874825A404380023B738 /* DatabaseSaving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseSaving.swift; sourceTree = "<group>"; };
 		8EBE78D925A2D2B80047DE4A /* Save & Delete(Core Data).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Save & Delete(Core Data).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBE78DC25A2D2B80047DE4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EBE78DE25A2D2B80047DE4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E67874625A401230023B738 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E67874125A401190023B738 /* StudentData+CoreDataClass.swift */,
+				8E67874225A401190023B738 /* StudentData+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8EBE78D025A2D2B80047DE4A = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +73,10 @@
 		8EBE78DB25A2D2B80047DE4A /* Save & Delete(Core Data) */ = {
 			isa = PBXGroup;
 			children = (
+				8E67874625A401230023B738 /* Model */,
 				8EBE78DC25A2D2B80047DE4A /* AppDelegate.swift */,
 				8EBE78DE25A2D2B80047DE4A /* SceneDelegate.swift */,
+				8E67874825A404380023B738 /* DatabaseSaving.swift */,
 				8EBE78E025A2D2B80047DE4A /* ViewController.swift */,
 				8EBE78E225A2D2B80047DE4A /* Main.storyboard */,
 				8EBE78E825A2D2B90047DE4A /* Assets.xcassets */,
@@ -140,8 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E67874325A401190023B738 /* StudentData+CoreDataClass.swift in Sources */,
 				8EBE78E725A2D2B80047DE4A /* Save___Delete_Core_Data_.xcdatamodeld in Sources */,
 				8EBE78E125A2D2B80047DE4A /* ViewController.swift in Sources */,
+				8E67874425A401190023B738 /* StudentData+CoreDataProperties.swift in Sources */,
+				8E67874925A404380023B738 /* DatabaseSaving.swift in Sources */,
 				8EBE78DD25A2D2B80047DE4A /* AppDelegate.swift in Sources */,
 				8EBE78DF25A2D2B80047DE4A /* SceneDelegate.swift in Sources */,
 			);
